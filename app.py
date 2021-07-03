@@ -4,13 +4,13 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     title = "Avro.dev"
-    return render_template('home.html', title=title)
+    return render_template('pages/home.html', title=title)
 
 @app.route('/<error>')
 @app.errorhandler(404)
 def page_not_found(error):
     title = error
-    return render_template('page_not_found.html', error=error, title=title), 404
+    return render_template('errors/page_not_found.html', error=error, title=title), 404
 
 # Routes Example
 # --------------
