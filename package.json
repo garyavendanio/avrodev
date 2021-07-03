@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:css": "postcss ./public/css/tailwind.css -o ./static/assets/css/index.css",
+    "dev": "NODE_ENV=production postcss ./public/css/tailwind.css -o ./static/assets/css/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.2"
+  }
+}
