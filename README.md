@@ -1,4 +1,4 @@
-https://flask.palletsprojects.com/
-https://tailwindcss.com
-https://aprendejavascript.org/
+https://flask.palletsprojects.com/<br>
+https://tailwindcss.com<br>
+https://aprendejavascript.org/<br>
 https://es.reactjs.org/
