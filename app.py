@@ -9,7 +9,8 @@ def home():
 @app.route('/<error>')
 @app.errorhandler(404)
 def page_not_found(error):
-    return render_template('page_not_found.html', error=error), 404
+    title = error
+    return render_template('page_not_found.html', error=error, title=title), 404
 
 # Routes Example
 # --------------
